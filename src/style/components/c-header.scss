@@ -1,0 +1,40 @@
+.c-header {
+  margin: 0 auto;
+
+  &__logo {
+    padding: 1em;
+    img {
+      display: block;
+      margin: auto;
+      width: 600px;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: end;
+    &--list {
+      list-style: none;
+      padding: 0 .5em;
+      a {
+        font-size: 18px;
+      }
+    }
+    &--span {
+      font-size: 22px;
+      color: grey;
+    }
+  }
+
+  &__intro {
+    font-size: 18px;
+    color: grey;
+    padding-top: .5em;
+    &--text {
+      padding: .5em;
+      margin: 0 auto;
+    }
+  }
+}

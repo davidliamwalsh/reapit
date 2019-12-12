@@ -1,0 +1,54 @@
+.c-advert {
+  display: flex;
+  padding: .5em;
+  &__hero {
+    &--image {
+      width: 300px;
+      padding: 0 .5em;
+    }
+    &--contact {
+      text-align: center;
+      margin: 0;
+      padding: .5em 2.4em;
+      font-size: 20px;
+      color: gray;
+      a {
+        color: red;
+        padding: 0 .5em;
+      }
+    }
+  }
+
+  &__details {
+    color: gray;
+    &--title {
+      margin: 0;
+      color: purple;
+      font-size: 24px;
+      padding: 0 .5em;
+    }
+    &--header {
+      margin: 0;
+      font-size: 20px;
+      padding: .2em .5em;
+    }
+    &--nav {
+      display: flex;
+      &-list {
+        list-style: none;
+        font-size: 20px;
+        padding: .2em .5em;
+      }
+      &-span {
+        font-size: 24px;
+        height: 24px;
+      }
+    }
+    &--text {
+      font-size: 20px;
+      padding: .2em .5em;
+      margin: 0;
+      text-align: justify;
+    }
+  }
+}

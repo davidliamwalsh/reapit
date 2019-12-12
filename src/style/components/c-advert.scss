@@ -22,20 +22,20 @@
     color: gray;
     &--title {
       margin: 0;
-      color: purple;
+      color: #4279A3;
       font-size: 22px;
       padding: 0 0 .1em .5em;
     }
     &--header {
       margin: 0;
-      font-size: 18px;
+      font-size: 20px;
       padding: .1em .5em;
     }
     &--nav {
       display: flex;
       &-list {
         list-style: none;
-        font-size: 18px;
+        font-size: 20px;
         padding: .1em .5em;
       }
       &-span {
@@ -44,7 +44,7 @@
       }
     }
     &--text {
-      font-size: 18px;
+      font-size: 20px;
       padding: .1em .5em;
       margin: 0;
       text-align: justify;

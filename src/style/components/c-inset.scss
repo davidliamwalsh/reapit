@@ -2,10 +2,8 @@
   display: flex;
   position: relative;
   &__hero {
-    img {
-      width: 170px;
+    width: 170px;
       padding: 0 .5em;
-    }
   }
   
   &__info {
@@ -16,7 +14,7 @@
    
     &--list {
       list-style: none;
-      font-size: 20px;
+      font-size: 18px;
 
       a {
         padding-left: 5px;

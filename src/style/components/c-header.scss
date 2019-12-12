@@ -19,18 +19,19 @@
       list-style: none;
       padding: 0 .5em;
       a {
-        font-size: 20px;
+        font-size: 18px;
       }
     }
     &--span {
-      font-size: 24px;
+      font-size: 22px;
       color: grey;
     }
   }
 
   &__intro {
-    font-size: 20px;
+    font-size: 18px;
     color: grey;
+    padding-top: .5em;
     &--text {
       padding: .5em;
       margin: 0 auto;

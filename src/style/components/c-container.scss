@@ -1,5 +1,11 @@
 .c-container {
-  width: 100%;
-  border: 5px solid gray;
-  margin: 0 auto;
+  width: 850px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.c-inner-container {
+  width: 830px;
+  margin: auto;
+  border: 10px solid lightgray;
 }

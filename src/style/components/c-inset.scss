@@ -1,0 +1,26 @@
+.c-inset {
+  display: flex;
+  position: relative;
+  &__hero {
+    img {
+      width: 170px;
+      padding: 0 .5em;
+    }
+  }
+  
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: gray;
+   
+    &--list {
+      list-style: none;
+      font-size: 20px;
+
+      a {
+        padding-left: 5px;
+      }
+    }
+  }
+}

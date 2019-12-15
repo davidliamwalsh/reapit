@@ -1,6 +1,6 @@
 .c-header {
   margin: 0 auto;
-
+  letter-spacing: 2px;
   &__logo {
     padding: 1em;
     img {
@@ -16,21 +16,20 @@
     margin: auto;
     align-items: end;
     &--list {
-      list-style: none;
       padding: 0 .5em;
       a {
-        font-size: 20px;
+        font-size: 18px;
       }
     }
     &--span {
-      font-size: 24px;
-      color: grey;
+      font-size: 16px;
+      color: $main-gray;
     }
   }
  
   &__intro {
-    font-size: 20px;
-    color: grey;
+    font-size: $main-font;
+    color: $main-gray;
     padding-top: .5em;
     &--text {
       padding: .5em;

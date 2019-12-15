@@ -1,5 +1,6 @@
 .c-footer {
-  color: gray;
+  color: $main-gray;
+  letter-spacing: 1px;
   font-size: 18px;
   &__main {
     padding: 0 .5em;

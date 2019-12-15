@@ -1,6 +1,7 @@
 .c-advert {
   display: flex;
   padding: .5em;
+  letter-spacing: 1px;
   &__hero {
     &--image {
       width: 300px;
@@ -11,7 +12,7 @@
       margin: 0;
       padding: .5em 2.4em;
       font-size: 18px;
-      color: gray;
+      color: $main-gray;
       a {
         padding: 0 .5em;
       }
@@ -19,23 +20,30 @@
   }
 
   &__details {
-    color: gray;
+    color: $main-gray;
     &--title {
       margin: 0;
-      color: #4279A3;
       font-size: 22px;
       padding: 0 0 .1em .5em;
+
+      a {
+        color: #4279A3;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+        text-decoration-color: $links;
+      }
     }
     &--header {
       margin: 0;
-      font-size: 20px;
+      font-size: $main-font;
       padding: .1em .5em;
     }
     &--nav {
       display: flex;
       &-list {
-        list-style: none;
-        font-size: 20px;
+        font-size: $main-font;
         padding: .1em .5em;
       }
       &-span {
@@ -44,7 +52,7 @@
       }
     }
     &--text {
-      font-size: 20px;
+      font-size: $main-font;
       padding: .1em .5em;
       margin: 0;
       text-align: justify;

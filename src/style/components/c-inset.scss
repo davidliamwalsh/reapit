@@ -1,0 +1,23 @@
+.c-inset {
+  display: flex;
+  position: relative;
+  letter-spacing: 1px;
+  &__hero {
+    width: 170px;
+      padding: 0 .5em;
+  }
+  
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: $main-gray;
+   
+    &--list {
+      font-size: $main-font;
+      a {
+        padding-left: 5px;
+      }
+    }
+  }
+}
